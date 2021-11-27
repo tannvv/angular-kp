@@ -1,0 +1,7 @@
+<input type="text" [(ngModel)]="name"/>
+<p>Name of text is : {{name}} </p>
+<h3 [ngStyle]="name.length % 2 === 0 ? evenLength : oddLength">
+  Your name is :
+</h3>
+<div [ngClass]="name.length % 2 === 0 ? squareClass : circleClass">
+</div>
