@@ -12,6 +12,8 @@ import { StructuralDirectiveObjectComponent } from './structural-directive-objec
 import { PersonComponent } from './person/person.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { Child2Component } from './child2/child2.component';
+import { Parent2Component } from './parent2/parent2.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ChildComponent } from './child/child.component';
     StructuralDirectiveObjectComponent,
     PersonComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    Child2Component,
+    Parent2Component
   ],
   imports: [
     BrowserModule,
