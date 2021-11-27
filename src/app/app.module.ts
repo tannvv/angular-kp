@@ -15,6 +15,8 @@ import { ChildComponent } from './child/child.component';
 import { Child2Component } from './child2/child2.component';
 import { Parent2Component } from './parent2/parent2.component';
 import { CardComponent } from './card/card.component';
+import { LearnPipeComponent } from './learn-pipe/learn-pipe.component';
+import { RoundPipe} from "./roundPipe.Pipe";
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { CardComponent } from './card/card.component';
     ChildComponent,
     Child2Component,
     Parent2Component,
-    CardComponent
+    CardComponent,
+    LearnPipeComponent,
+    RoundPipe
   ],
   imports: [
     BrowserModule,
