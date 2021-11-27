@@ -14,6 +14,7 @@ import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { Child2Component } from './child2/child2.component';
 import { Parent2Component } from './parent2/parent2.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { Parent2Component } from './parent2/parent2.component';
     ParentComponent,
     ChildComponent,
     Child2Component,
-    Parent2Component
+    Parent2Component,
+    CardComponent
   ],
   imports: [
     BrowserModule,
